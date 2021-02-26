@@ -4,7 +4,7 @@ import { EmailBroadcastAnalytics, SMSBroadcastAnalytics } from '../../components
 
 const Chart = () => {
   return (
-    <div className="w-full h-3/6 flex justtify-center items-center rounded-md">
+    <div className="w-full h-3/6 flex justify-center items-center rounded-md">
       <SMSBroadcastAnalytics />
       <EmailBroadcastAnalytics />
     </div>

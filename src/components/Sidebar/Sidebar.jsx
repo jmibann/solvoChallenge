@@ -55,7 +55,7 @@ const Sidebar = () => {
         <span className="py-4" > Teametrix </span>
 
         {
-          MENU_ITEM_LIST.map(item => <SidebarItem {...item} clickHandler={clickHandler} selectedItem={selectedItem} />)
+          MENU_ITEM_LIST.map(item => <SidebarItem {...item} key={item.id} clickHandler={clickHandler} selectedItem={selectedItem} />)
         }
 
       </div>
