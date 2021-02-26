@@ -6,13 +6,16 @@ const getColorBackground = (color) => {
       return 'bg-blue-400';
 
     case 'orange':
-      return 'bg-red-200';
+      return 'bg-yellow-400';
 
     case 'green':
-      return 'bg-green-700';
+      return 'bg-green-400';
 
     case 'purple':
-      return 'bg-blue-700';
+      return 'bg-indigo-400';
+
+    case 'gray':
+      return 'bg-gray-400';
 
     case 'white':
       return 'bg-white';
@@ -26,7 +29,6 @@ const getColorBackground = (color) => {
 const Button = ({ color, className, children }) => {
 
   const bgColor = getColorBackground(color);
-
   const baseBtnCls = `flex items-center py-2 px-2 rounded ${bgColor} `;
 
   const btnCls = baseBtnCls.concat(className);
