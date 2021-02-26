@@ -7,7 +7,9 @@ module.exports = {
       default: 'default',
       pointer: 'pointer',
     },
-    extend: {},
+    extend: {
+      borderColor: ['focus'],
+    },
   },
   variants: {
     extend: {},
