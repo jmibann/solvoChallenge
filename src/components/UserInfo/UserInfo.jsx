@@ -10,7 +10,7 @@ const UserInfo = ({ id, fullName, company }) => (
       <FaUserCircle className="text-3xl" />
     </div>
     <div className="flex flex-col w-9/12">
-      <div className="flex justify-between items-center w-full">
+      <div className="flex justify-between items-center w-full cursor-pointer">
         <span className="text-xs font-semibold">{fullName}</span>
         <IoIosArrowDown size={12} />
       </div>
